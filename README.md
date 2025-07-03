@@ -1,1 +1,2 @@
-# secure-reddit-clone-go
+# reddit-engine-multimodel
+This project includes two versions of a Reddit-like platform. The first version is built using an actor-based model, where each action like posting or messaging is handled as a separate message by the engine, allowing multiple users to interact at the same time through a simulation. The second version uses a REST API built in Go, with secure features like RSA-2048 digital signatures to verify posts. It supports user registration, subreddit creation, posting, commenting, voting, and private messaging through a command-line client. Together, these two versions demonstrate different ways to build and test a social platform using concurrency and security.
